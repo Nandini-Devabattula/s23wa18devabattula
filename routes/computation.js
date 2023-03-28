@@ -6,7 +6,7 @@ var router = express.Router();
 let x;
 let y;
 router.get('/', function(req, res, next) {
-//res.render('computation', { title: 'Maheshwar Punyam Anand' });
+//res.render('computation', { title: 'Nandini Devabattula' });
 
 if(req.query.x ==undefined ) {
 x=Math.floor(Math.random()*10);
